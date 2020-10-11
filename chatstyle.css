@@ -6,6 +6,10 @@
     display: none;
 }
 
+.nav-counter{
+    display: none;
+}
+
 .theme--night::-webkit-scrollbar, .theme--night ::-webkit-scrollbar {
     background-color: #000;
 }
@@ -73,6 +77,7 @@
     color: #cccccc;
     border-color: rgba(0,0,0,0.3);
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
 }
 
 .input-text.input-text::-webkit-input-placeholder {
@@ -119,6 +124,7 @@
     border-color: rgba(0,0,0,0.3);
     background-color: #31353a
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
 }
 
 .post.post.me {
