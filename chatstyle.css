@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap');
 
 #tlkio {
 
@@ -109,7 +109,7 @@ left: 7px;
 }
 .theme--night .chat {
 color: #cccccc;
-font-family: 'Montserrat', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
 -webkit-font-smoothing:antialiased;
 font-weight: 400;
 font-size: 0.94em;
@@ -167,32 +167,35 @@ line-height: 1.5;
 .theme--night .message-avatar {
  box-shadow:none;
 }
-.theme--night .message-input {
+
+
+
+.message-input {
  color:#fff;
  border-bottom: #1f1f1f;
  background-color: #000;
  -webkit-font-smoothing:antialiased;
- font-family: 'Montserrat', sans-serif;
+ font-family: 'IBM Plex Mono', monospace;
 font-weight: 400;
 font-size: 1.03em;
 letter-spacing: 0.022em;
 
 }
-.theme--night .message-input:hover {
+.message-input:hover {
  border-bottom: rgb(77, 77, 77);
 }
-.theme--night .message-input:focus {
+.message-input:focus {
  border-bottom: #fff;
  background-color: #000;
 
 }
-.theme--night .message-input::-webkit-input-placeholder {
+.message-input::-webkit-input-placeholder {
  color:rgba(255,255,255,0.3);
 }
-.theme--night .message-input::-moz-placeholder {
+.message-input::-moz-placeholder {
  color:rgba(255,255,255,0.3);
 }
-.theme--night .message-input:-ms-input-placeholder {
+.message-input:-ms-input-placeholder {
  color:rgba(255,255,255,0.3);
 }
 .theme--night .join {
@@ -229,10 +232,7 @@ right: 1;
 
 
 
-.message-input {
 
-  font-size: 16px;
-}
 
 
 .theme--night .menu-item {
