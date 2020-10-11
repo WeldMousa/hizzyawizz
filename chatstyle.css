@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap')
+
 #tlkio {
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap')
+
 
 .header-avatar {
   display:none;
@@ -18,7 +20,7 @@ left: 7px;
   top: -45px;
 }
 
-[data-user-nickname~="hizz ya wizz"] {
+[data-user-nickname~="hizzyawizz"] {
 
   background-color: #7b46ff !important;
   padding: 15px 15px 15px 15px;
