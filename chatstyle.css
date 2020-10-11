@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 #tlkio {
 
@@ -109,7 +109,7 @@ left: 7px;
 }
 .theme--night .chat {
 color: #cccccc;
-font-family: 'Space Mono';
+font-family: 'Montserrat', sans-serif;
 -webkit-font-smoothing:antialiased;
 font-weight: 400;
 font-size: 0.94em;
@@ -172,7 +172,7 @@ line-height: 1.5;
  border-bottom: #1f1f1f;
  background-color: #000;
  -webkit-font-smoothing:antialiased;
- font-family: 'Space Mono';
+ font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 font-size: 1.03em;
 letter-spacing: 0.022em;
