@@ -1,5 +1,5 @@
 
-/* tlk.io night theme */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap');
 
 .button.button {
     color: #999999;
@@ -59,8 +59,7 @@
 .input-text.input-text {
     color: #cccccc;
     border-color: rgba(0,0,0,0.3);
-    background-color: rgba(0,0,0,0.2);
-    box-shadow: 0 1px 1px rgba(255,255,255,0.1)
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .input-text.input-text::-webkit-input-placeholder {
@@ -106,10 +105,12 @@
 .post.post {
     border-color: rgba(0,0,0,0.3);
     background-color: #31353a
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .post.post.me {
     background-color: #2d3034
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .post-avatar.post-avatar {
