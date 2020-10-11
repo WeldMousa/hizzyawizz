@@ -1,9 +1,8 @@
 #tlkio {
 
-
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 .header-avatar {
   display:none;
@@ -89,6 +88,7 @@ left: 7px;
  box-shadow: 0 1px 1px rgba(255,255,255,0.1);
 }
 .theme--night .input-text::-webkit-input-placeholder {
+
  color:rgba(255,255,255,0.3);
 }
 .theme--night .input-text::-moz-placeholder {
@@ -116,7 +116,7 @@ left: 7px;
 .theme--night .chat {
  color: #cccccc;
 
-font-family: 'iawriter-mono', Nitti, Menlo, Courier, monospace;
+font-family: 'Space Mono', monospace;
 font-weight: 400;
 font-size: 0.94em;
 line-height: 1.5;
