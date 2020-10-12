@@ -180,18 +180,19 @@ line-height: 1.5;
     font-weight: 400;
     font-size: 1.03em;
     letter-spacing: 0.022em;
-    border-color: rgb(255 0 0 / 30%);
+    border-bottom-color: rgb(90 90 90);
     color: #fff;
     font-size: 1.0rem;
+    box-shadow: none;
+    border-radius: 0;
 
 }
 .theme--night .message-input:hover {
- border-color:rgba(0,0,0,0.5);
+    border-bottom-color: rgb(185 185 185);
 }
 .theme--night .message-input:focus {
- border-color:transparent;
- background-color:transparent;
- box-shadow:none;
+    border-bottom-color: #ffffff;
+    box-shadow: none;
 }
 .theme--night .message-input::-webkit-input-placeholder {
  color:rgba(255,255,255,0.3);
