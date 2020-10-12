@@ -273,3 +273,15 @@ right: 1;
  border-color:rgba(225, 225, 225, 0.3);
   background-color:#000;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #000;
+    height: 75px;
+    width: 100%;
+    -moz-transition: -moz-transform 0.4s ease, opacity 0.4s ease;
+    -o-transition: -o-transform 0.4s ease, opacity 0.4s ease;
+    -webkit-transition: -webkit-transform 0.4s ease, opacity 0.4s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
