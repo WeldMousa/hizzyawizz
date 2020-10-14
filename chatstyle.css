@@ -1,23 +1,17 @@
 #tlkio {
 
-
 }
-
-
 
 .header-avatar {
   display:none;
 }
 .nav-counter {
-
   display: none;
 }
 .nav {
-left: 7px;
-
+  left: 7px;
 }
 .header {
-
   display: none;
 }
 
@@ -31,19 +25,6 @@ left: 7px;
 }
 
 
-
-
-
-
-
-
-
-
-.post-avatar--troll[data-user-nickname~="yousef"] {
-
-  color: #fff !important;
-}
-
 .theme-picker-item[data-theme="theme--night"] {
  background-color:#26282c;
 }
@@ -52,7 +33,6 @@ left: 7px;
 }
 
 #theme-picker {
-
   display: none;
 }
 
@@ -101,7 +81,6 @@ left: 7px;
  color: #f2efef;
  border-color: rgba(55, 55, 55, 0.3);
  background-color: rgba(36, 36, 36, 0.2);
- box-shadow: 0 1px 1px rgba(255,255,255,0.1);
 }
 .theme--night .input-text::-webkit-input-placeholder {
  color:rgba(255,255,255,0.3);
@@ -140,7 +119,6 @@ line-height: 1.5;
  color:rgba(255,255,255,0.3);
 }
 .theme--night .post {
-  border-color: rgba(255, 255, 255, 0.3);
   background-color: #000;
 }
 .theme--night .post.me {
@@ -192,7 +170,6 @@ line-height: 1.5;
  color:#fff;
  border-color:rgba(0,0,0,0.3);
  background-color:rgba(0,0,0,0.15);
- box-shadow:inset 0 1px 3px rgba(0,0,0,0.06),0 1px 1px rgba(255,255,255,0.1);
  -webkit-font-smoothing:antialiased;
  font-family: 'iawriter-mono', Nitti, Menlo, Courier, monospace;
 font-weight: 400;
