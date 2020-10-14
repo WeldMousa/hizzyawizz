@@ -256,3 +256,8 @@ right: 1;
  border-color:rgba(225, 225, 225, 0.3);
   background-color:#000;
 }
+
+.post:last-of-type, .post:first-of-type {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
