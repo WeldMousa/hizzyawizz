@@ -1340,7 +1340,8 @@ i[data-smiley="laugh"]:before {
     position: absolute;
     top: 9px;
     right: 9px}
-
+.message-button--submit.show {
+    display: block}
 .join-toggleButton {
     display: none}
 @media (max-width: 299px) {
@@ -2203,8 +2204,3 @@ i[data-smiley="laugh"]:before {
     background-color: #5c9dff}
 .theme4 .header-bar {
     background-color: #ff8088}
-
-    .theme--night::-webkit-scrollbar, .theme--night ::-webkit-scrollbar {
-        width: 4px;
-        background-color:#7f91a200;
-    }
