@@ -140,7 +140,7 @@ line-height: 1.5;
  background-color:#404040;
 }
 .theme--night .post-message.unread .post-time-dot {
- background-color:#ffd500;
+ background-color:#000000;
 }
 .theme--night .post-time-tag {
  border-color:rgba(0,0,0,0.4);
