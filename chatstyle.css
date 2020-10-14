@@ -119,7 +119,7 @@ line-height: 1.5;
  color:rgba(255,255,255,0.3);
 }
 .theme--night .post {
-  background-color: #000;
+  background-color: rgb(255, 230, 0);
 }
 .theme--night .post.me {
  background-color:#2d3034;
@@ -260,5 +260,8 @@ right: 1;
 .post:last-of-type, .post:first-of-type, .time+.post {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
     
 }
