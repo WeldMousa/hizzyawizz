@@ -21,75 +21,9 @@ left: 7px;
   top: -45px;
 }
 
-[data-user-nickname~="yousef"] {
-
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
 
 
-[data-user-nickname~="AS AA S أساس"] {
 
-  background-color: #181818 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-
-[data-user-nickname~="RECORDAT"] {
-
-  background-color: #1e0404 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Radio_alHara"] {
-
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Radio Alhara"] {
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Yazan Khalili"] {
-
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Saeed Slippery Johnson Abu-Jaber"] {
-
-  background-color: #18140b !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-
-.post-avatar--troll[data-user-nickname~="yousef"] {
-
-  color: #fff !important;
-}
 
 .theme-picker-item[data-theme="theme--night"] {
  background-color:#26282c;
