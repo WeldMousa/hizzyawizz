@@ -137,7 +137,9 @@ line-height: 1.5;
 }
 .theme--night .post-avatar--troll {
  color:rgba(255,255,255,0.2);
- background: #000000;;
+ background: #000000;
+ font-size: 13px;
+ font-weight: 500;
 }
 .theme--night .time {
  color:#404040;
@@ -151,6 +153,8 @@ line-height: 1.5;
 .theme--night .post-time-tag {
  border-color:rgba(0,0,0,0.4);
  background:#1f1f1f;
+ font-size: 10px;
+ text-transform: uppercase;
 }
 .theme--night .chat code,
 .theme--night .chat pre {
@@ -272,4 +276,15 @@ right: 1;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+time.time {
+    text-transform: uppercase;
+}
+
+
+.post-time-button{
+    text-transform: uppercase;
+    color: red;
+
 }
