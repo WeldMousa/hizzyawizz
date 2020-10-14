@@ -34,13 +34,11 @@ html.isIframe::-webkit-scrollbar {
 
 .isIframe .header-bar {
     border-radius: 0px;
-    background-color: #316197;
+    background-color: #31619700;
 }
 
 .header-channel {
-    font-size: 16px;
-    line-height: 24px;
-    height: 24px;
+    display: none;
 }
 
 .nav {
@@ -48,8 +46,7 @@ html.isIframe::-webkit-scrollbar {
 }
 
 .nav-counter {
-    right: 24px;
-    top: 0px;
+    display: none;
 }
 
 .nav-button {
