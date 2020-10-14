@@ -47,8 +47,8 @@
  width: 4px;
 }
 .theme--night .button {
- color:#999999;
- border-color:rgba(0,0,0,0.4);
+ color:#ffffff;
+ border-color:#2c2c2c;
  background-color:#000;
  background-image:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjA1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
  background-size:100%;
@@ -59,7 +59,7 @@
  box-shadow:none;
 }
 .theme--night .button:hover {
- background-color:#383c42;
+ background-color:#2c2c2c;
 }
 .theme--night .button:active {
  background-color:#1a1c1e;
@@ -79,7 +79,7 @@
 }
 .theme--night .input-text {
  color: #f2efef;
- border-color: rgba(55, 55, 55, 0.3);
+ border-color: rgb(55, 55, 55);
  background-color: rgba(36, 36, 36, 0.2);
 }
 .theme--night .input-text::-webkit-input-placeholder {
@@ -120,7 +120,7 @@ line-height: 1.5;
 }
 .theme--night .post {
   background-color: #000;
-  border-color: #4d4d4d;
+  border-color: #2c2c2c;
 }
 .theme--night .post.me {
  background-color:#2d3034;
@@ -131,7 +131,7 @@ line-height: 1.5;
 }
 .theme--night .post-avatar--troll {
  color:rgba(255,255,255,0.2);
- background:rgb(29, 29, 29);
+ background: #000000;;
 }
 .theme--night .time {
  color:#404040;
@@ -196,9 +196,9 @@ letter-spacing: 0.022em;
  color:rgba(255,255,255,0.3);
 }
 .theme--night .join {
- color:#666666;
+ color:#fff;
  border-color:rgba(0,0,0,0.3);
- background-color:rgba(0,0,0,0.2);
+ background-color:#000;
 }
 .theme--night .join-hl {
  color:#999999;
@@ -250,7 +250,7 @@ right: 1;
 .theme--night .participants {
  color:#cccccc;
  border-color:rgba(225, 225, 225, 0.3);
-  background-color:#000;
+ background-color:#000;
 }
 .theme--night .counter {
  color:#666666;
