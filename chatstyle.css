@@ -21,7 +21,7 @@ left: 7px;
   display: none;
 }
 
-[data-user-nickname~="yousef"] {
+[data-user-nickname~="hizyawizz"] {
 
   background-color: #181013 !important;
   padding: 15px 15px 15px 15px;
@@ -31,59 +31,12 @@ left: 7px;
 }
 
 
-[data-user-nickname~="AS AA S أساس"] {
-
-  background-color: #181818 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
 
 
-[data-user-nickname~="RECORDAT"] {
 
-  background-color: #1e0404 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
 
-}
 
-[data-user-nickname~="Radio_alHara"] {
 
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Radio Alhara"] {
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Yazan Khalili"] {
-
-  background-color: #181013 !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
-
-[data-user-nickname~="Saeed Slippery Johnson Abu-Jaber"] {
-
-  background-color: #18140b !important;
-  padding: 15px 15px 15px 15px;
-  font-size: 1.04em;
-  line-height: 1.7;
-
-}
 
 
 .post-avatar--troll[data-user-nickname~="yousef"] {
@@ -105,11 +58,13 @@ left: 7px;
 
 .theme--night::-webkit-scrollbar,
 .theme--night ::-webkit-scrollbar {
- background-color:#1a1c1e;
+ background-color:#000000;
+ width: 4px;
 }
 .theme--night::-webkit-scrollbar-thumb,
 .theme--night ::-webkit-scrollbar-thumb {
- background-color:#31353a;
+ background-color:#1b1b1b;
+ width: 4px;
 }
 .theme--night .button {
  color:#999999;
@@ -297,8 +252,7 @@ right: 1;
 
 
 .message-input {
-
-  font-size: 16px;
+   font-size: 16px;
 }
 
 
