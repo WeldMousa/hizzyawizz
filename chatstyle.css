@@ -166,9 +166,9 @@ line-height: 1.5;
  border:none;
 }
 .theme--night .chat blockquote {
- color:#6eb7f7;
+ color:#398fff;
  border:none;
- border-left:4px solid #3d9ff5;
+ border-left:4px solid #398fff;
  background:#3d4148;
 }
 .theme--night .chat hr {
@@ -184,7 +184,7 @@ line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.022em;
     border-radius: 0px;
 
