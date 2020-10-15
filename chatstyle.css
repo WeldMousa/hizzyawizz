@@ -280,6 +280,7 @@ right: 1;
 
 time.time {
     text-transform: uppercase;
+    text-align: right;
 }
 
 
