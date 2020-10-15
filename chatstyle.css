@@ -288,3 +288,7 @@ time.time {
     color: red;
 
 }
+
+post-time{
+    cursor: cell;
+}
