@@ -307,3 +307,8 @@ post-time{
 background-color: #000000;
 color: #feea00;
 }
+
+span.join-hl:after {
+    content: "Enter your name and press enter :)";
+    
+}
