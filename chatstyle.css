@@ -308,7 +308,16 @@ background-color: #000000;
 color: #feea00;
 }
 
-span.join-hl:after {
-    content: "Enter your name and press enter :)";
+span.join-hl {
+color: #ffffff;
+font-family: 'IBM Plex Mono', monospace;
+font-weight: 300;
+font-size: 13px;
+line-height: 1.5;
     
+}
+
+span.join-hl:after {
+    content: " Enter your name and press enter :)";
+
 }
