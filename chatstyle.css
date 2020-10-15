@@ -369,7 +369,7 @@ button#panel-button svg{
 button#panel-button {
     color: #fff;
     -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition:         transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
 }
 
 button#panel-button:before {
@@ -377,6 +377,6 @@ button#panel-button:before {
 }
 
 body.showPanel button#panel-button {
-  -webkit-transform: rotate(180deg) !important;
-  transform: rotate(180deg) !important;
- }
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
