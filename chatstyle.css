@@ -222,9 +222,11 @@ line-height: 1.5;
  color:#4d4d4d;
 }
 .aside {
- background-color:#000;
+background-color:#000;
 left: 0;
-width: 360px;
+width: 100%;
+font-size: 13px;
+font-family: 'IBM Plex Mono', monospace;
 
 }
 
@@ -327,6 +329,7 @@ span.join-hl:after {
 .button-load.show {
     display: block;
     border-radius: 0px;
-    color: #fff;
+    color: #404040;
     border-color: #2c2c2c;
+    font-size: 13px;
 }
