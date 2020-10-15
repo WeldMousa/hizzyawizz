@@ -293,3 +293,17 @@ time.time {
 post-time{
     cursor: cell;
 }
+
+.scrollButton{
+
+    background-color: #000000;
+    border-radius: 0px;
+    border-color: #fff;
+    border-width: 1px;
+    box-shadow: none;
+}
+
+.scrollButton:hover{
+background-color: #000000;
+color: #feea00;
+}
