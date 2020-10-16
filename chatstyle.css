@@ -25,6 +25,7 @@
     box-shadow: none;
     pointer-events: none;
     text-transform: uppercase;
+    
 }
 
 .header-status{
@@ -40,6 +41,7 @@
 .header .header-bar {
   background-color: #ff5154;
   height: 56px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 [data-user-nickname~="hizyawizz"] {
