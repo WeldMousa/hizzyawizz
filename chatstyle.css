@@ -8,13 +8,21 @@
   display:none;
 }
 .nav-counter {
-  color: #000000;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  right: 16px;
+}
+
+.nav-counter:before {
+    content: "Online ";
 }
 .nav {
   left: 7px;
 }
-.header {
+.header .header-bar {
   background-color: #ff5154;
+  height: 56px;
 }
 
 [data-user-nickname~="hizyawizz"] {
