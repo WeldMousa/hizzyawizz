@@ -8,10 +8,27 @@
   display:none;
 }
 .nav-counter {
-  color: #ffffff;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 13px;
-  right: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 1px 8px;
+    overflow: hidden;
+    min-width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 0px;
+    background: none;
+    box-shadow: none;
+    pointer-events: none;
+    text-transform: uppercase;
+}
+
+.header-status{
+    display: none;
 }
 
 .nav-counter:before {
@@ -392,4 +409,8 @@ body.showPanel button#panel-button {
 .footer-wrapper {
     text-align: center;
     padding: 20px 9px 0px 50px;
+}
+
+.nav-button{
+    padding: 16px;
 }
