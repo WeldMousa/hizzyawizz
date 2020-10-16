@@ -151,12 +151,16 @@ body {
         margin-left: 60px;
         margin-right: 96px;
         font-family: 'IBM Plex Mono', monospace;
-        color: rgba(255,255,255,0.8);
-        text-align: center;
-        /* white-space: nowrap; */
+        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     
+}
+
+.header-channel::after{
+
+    content: " CHAT";
+
 }
 .chat {
 color: #cccccc;
