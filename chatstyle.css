@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
 
-\\tlkio\\
+/*tlkio*/
 
 
 body {
@@ -138,8 +138,25 @@ body {
  background-color:rgba(0,0,0,0.3);
 }
 .header-channel {
- color:rgba(255,255,255,0.5);
- display: none;
+    
+        color: #fff;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 4px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 47px;
+        display: block;
+        height: 50px;
+        margin-left: 60px;
+        margin-right: 96px;
+        font-family: 'IBM Plex Mono', monospace;
+        color: rgba(255,255,255,0.8);
+        text-align: center;
+        /* white-space: nowrap; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
 }
 .chat {
 color: #cccccc;
