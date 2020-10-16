@@ -8,13 +8,13 @@
   display:none;
 }
 .nav-counter {
-  display: none;
+  color: #000000;
 }
 .nav {
   left: 7px;
 }
 .header {
-  display: none;
+  background-color: #ff5154;
 }
 
 [data-user-nickname~="hizyawizz"] {
