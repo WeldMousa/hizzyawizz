@@ -14,7 +14,7 @@ body {
 .nav-counter {
     position: absolute;
     top: 16px;
-    right: 16px;
+    right: 60px;
     padding: 1px 8px;
     overflow: hidden;
     min-width: 24px;
