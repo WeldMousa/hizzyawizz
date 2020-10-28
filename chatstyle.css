@@ -2,9 +2,7 @@
 
 /*tlkio*/
 
-#tlkio {
-    height: 100%;
-}
+
 
 body {
     margin: 0px;
@@ -438,7 +436,11 @@ body.showPanel button#panel-button {
 
 .footer-wrapper {
     text-align: center;
-    padding: 20px 9px 0px 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    height: 100px;
 }
 
 .nav-button{
