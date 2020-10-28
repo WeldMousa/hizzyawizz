@@ -2,6 +2,9 @@
 
 /*tlkio*/
 
+.tlkio {
+    height: 100%;
+}
 
 body {
     margin: 0px;
