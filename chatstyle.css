@@ -13,38 +13,19 @@ body {
   display:none;
 }
 .nav-counter {
-    position: absolute;
-    top: 16px;
-    right: 60px;
-    padding: 1px 8px;
-    overflow: hidden;
-    min-width: 24px;
-    height: 24px;
-    line-height: 24px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 300;
-    color: #fff;
-    border-radius: 0px;
-    background: none;
-    box-shadow: none;
-    pointer-events: none;
-    text-transform: uppercase;
-    font-family: 'IBM Plex Mono', monospace;
+   display:none;
 }
 
 .header-status{
     display: none;
 }
 
-.nav-counter:before {
-    content: "Online ";
-}
+
 .nav {
   left: 7px;
 }
 .header .header-bar {
-  background-color: #ff5154;
+  background-color: #000;
   height: 56px;
  
 }
@@ -135,34 +116,15 @@ body {
 .header-icon:hover {
  background-color:rgba(0,0,0,0.1);
 }
+
 .header-icon:active {
  background-color:rgba(0,0,0,0.3);
 }
+
 .header-channel {
-    
-        color: #fff;
-        font-size: 13px;
-        text-transform: uppercase;
-        padding: 4px;
-        font-weight: 400;
-        text-align: left;
-        line-height: 47px;
-        display: block;
-        height: 50px;
-        margin-left: 60px;
-        margin-right: 96px;
-        font-family: 'IBM Plex Mono', monospace;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    
+ dispaly:none;    
 }
 
-.header-channel::after{
-
-    content: " CHAT";
-
-}
 .chat {
 color: #cccccc;
 font-family: 'IBM Plex Mono', monospace;
@@ -171,6 +133,7 @@ font-size: 13px;
 line-height: 1.5;
 padding-bottom: 100px;
 }
+
 .post-name {
  color:#8259ff;
  font-size: 10px;
@@ -178,41 +141,48 @@ padding-bottom: 100px;
  font-weight: 500;
  text-transform: uppercase;
 }
+
 .post {
   background-color: #000;
   border-color: #2c2c2c;
 }
+
 .post.me {
  background-color:#2d3034;
  color: #feea00;
-
 }
+
 .post-avatar {
  box-shadow:none;
 }
+
 .post-avatar--troll {
  color:rgba(255,255,255,0.2);
  background: #000000;
  font-size: 13px;
  font-weight: 500;
 }
+
 .time {
  color:#404040;
 }
+
 .post-time-dot {
  background-color:#404040;
 }
+
 .post-message.unread .post-time-dot {
  background-color:#000000;
 }
+
 .post-time-tag {
  border-color:rgba(0,0,0,0.4);
  background:#1f1f1f;
  font-size: 10px;
  text-transform: uppercase;
 }
-.chat code,
-.chat pre {
+
+.chat code, .chat pre {
  color:#b8ad7a;
  border:1px solid rgba(0,0,0,0.2);
  background-color:#2a2922;
@@ -221,18 +191,22 @@ padding-bottom: 100px;
  .chat pre code {
  border:none;
 }
+
 .chat blockquote {
  color:#398fff;
  border:none;
  border-left:4px solid #398fff;
  background:#3d4148;
 }
+
 .chat hr {
  border-color:rgba(255,255,255,0.1);
 }
+
 .message-avatar {
  box-shadow:none;
 }
+
 .message-input {
     color: #fff;
     border-color: #2c2c2c;
