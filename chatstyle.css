@@ -443,15 +443,15 @@ body.showPanel button#panel-button {
 
 .message-button--submit {
     display: block;
-    background-color: #ff0 !important;
+    background-color: #372079 !important;
     padding: 10px 20px;
     border: initial;
-    border-radius:0px;
+    border-radius: 0px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     margin: 1px;
-    color:#372079 !important;
+    color: #ff0 !important;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 13px;
 }
