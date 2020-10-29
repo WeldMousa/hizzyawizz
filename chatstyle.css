@@ -335,6 +335,11 @@ post-time{
     border-color: #fff;
     border-width: 1px;
     box-shadow: none;
+    dispaly: none;
+}
+
+.scrollButton.show{
+    display:block;
 }
 
 .scrollButton:hover{
