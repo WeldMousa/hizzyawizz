@@ -440,3 +440,22 @@ body.showPanel button#panel-button {
 .nav-button{
     padding: 16px;
 }
+
+.message-button--submit {
+    display: block;
+    background-color: #8259ff !important;
+    padding: 10px 20px;
+    border: initial;
+    border-radius:0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 1px;
+    color:#FFF !important;
+}
+.message-button--submit::-moz-selection {
+  background: initial  !important;
+}
+.message-button--submit::selection{
+  background: initial !important;
+}
