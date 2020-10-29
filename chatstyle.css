@@ -25,6 +25,7 @@ body {
   left: 0px;
   border-bottom: solid #101010;
   border-width: 1px 0px;
+  height:56px;
 }
 .header .header-bar {
   background-color: #000;
@@ -219,27 +220,32 @@ padding-bottom: 100px;
     font-size: 14px;
     letter-spacing: 0.022em;
     border-radius: 0px;
-
 }
+
 .message-input:hover {
  border-color:#fff;
  box-shadow: none;
  background-color: black;
 }
+
 .message-input:focus {
  border-color:#fff;
  background-color: black;
  box-shadow:none;
 }
+
 .message-input::-webkit-input-placeholder {
  color:rgba(255,255,255,0.3);
 }
+
 .message-input::-moz-placeholder {
  color:rgba(255,255,255,0.3);
 }
+
 .message-input:-ms-input-placeholder {
  color:rgba(255,255,255,0.3);
 }
+
 .join {
  color:#fff;
  border-color:rgba(0,0,0,0.3);
@@ -247,19 +253,21 @@ padding-bottom: 100px;
  position: relative;
  bottom: 136px;
 }
+
 .join-hl {
  color:#999999;
 }
+
 .join-hint {
  color:#4d4d4d;
 }
+
 .aside {
 background-color:#000;
 left: 0;
 width: 100%;
 font-size: 13px;
 font-family: 'IBM Plex Mono', monospace;
-
 }
 
 .post.me {
@@ -273,34 +281,35 @@ right: 1;
   -ms-transform: translate3d(-110%, 0, 0);
   -webkit-transform: translate3d(-110%, 0, 0);
   transform: translate3d(-110%, 0, 0);
-
 }
-
-
 
 .message-input {
    font-size: 16px;
 }
 
-
 .menu-item {
  border-color:rgba(0,0,0,0.4);
  background-color:#3d4148;
 }
+
+
 .menu-item:active {
  box-shadow:none;
 }
+
 .menu-item.isOn {
  border:1px solid #262626;
  border-left:none;
  box-shadow:none;
  background-color:#2a2d32;
 }
+
 .participants {
  color:#cccccc;
  border-color:rgba(225, 225, 225, 0.3);
  background-color:#000;
 }
+
 .counter {
  color:#666666;
  border-color:rgba(225, 225, 225, 0.3);
@@ -323,7 +332,6 @@ time.time {
 .post-time-button{
     text-transform: uppercase;
     color: red;
-
 }
 
 post-time{
