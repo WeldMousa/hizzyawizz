@@ -336,10 +336,12 @@ post-time{
     border-width: 1px;
     box-shadow: none;
     dispaly: none;
+    z-index: -1;
 }
 
 .scrollButton.show{
     display:block;
+    z-index: 1;
 }
 
 .scrollButton:hover{
