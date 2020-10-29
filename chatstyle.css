@@ -443,7 +443,7 @@ body.showPanel button#panel-button {
 
 .message-button--submit {
     display: block;
-    background-color: #26194c !important;
+    background-color: #ff0 !important;
     padding: 10px 20px;
     border: initial;
     border-radius:0px;
@@ -454,15 +454,12 @@ body.showPanel button#panel-button {
     color:#372079 !important;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
 }
 .message-button--submit::-moz-selection {
   background: initial  !important;
-    color: #372079;
+    color: #ff0 !important;
 }
 .message-button--submit::selection{
   background: initial !important;
-    color: #372079;
+    color: #ff0 !important;
 }
