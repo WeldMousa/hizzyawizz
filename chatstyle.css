@@ -22,7 +22,9 @@ body {
 
 
 .nav {
-  left: 7px;
+  left: 0px;
+  border-bottom: solid #101010;
+  border-width: 1px 0px;
 }
 .header .header-bar {
   background-color: #000;
@@ -423,6 +425,8 @@ body.showPanel button#panel-button {
     bottom: 0;
     background-color: #000;
     height: 100px;
+    border-top: solid #101010;
+    border-width: 1px 0px;
 }
 
 .nav-button{
