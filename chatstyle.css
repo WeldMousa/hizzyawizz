@@ -396,17 +396,15 @@ button#panel-button svg{
 
 button#panel-button {
     color: #fff;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
+    
 }
 
 button#panel-button:before {
-   content: "arrow_forward_ios";
+   content: "menu";
 }
 
 body.showPanel button#panel-button {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+   content: "close";
 }
 
 .footer-wrapper {
